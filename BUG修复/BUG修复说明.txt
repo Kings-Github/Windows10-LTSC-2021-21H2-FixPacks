@@ -1,0 +1,17 @@
+Windows10 LTSC 2021安装完成后会出现两个问题：
+1. wsappx进程占用高
+2. 中文输入法无法正常使用
+
+原因是在 LTSC 2021 中，微软删除了 Windows 功能体验包的依赖组件AppXSVC和ClipSVC，导致系统服务在尝试部署 Windows 功能体验包更新时卡住或陷入死循环。与此同时新版的中文输入法也依赖于 Windows 功能体验包。（来自知乎Divine Wing的文章）
+
+
+解决办法：
+安装Microsoft VCLib依赖包
+    1. 下载依赖包
+    2. 解压并复制到C盘根目录下
+    3. 使用以下命令进项安装
+
+# 安装的64位系统使用以下命令
+Add-AppxPackage -Path "C:\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx"
+# 安装的32位系统使用以下命令
+Add-AppxPackage -Path "C:\Microsoft.VCLibs.140.00_14.0.30704.0_x86__8wekyb3d8bbwe.Appx"
