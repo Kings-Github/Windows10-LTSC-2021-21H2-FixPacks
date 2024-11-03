@@ -42,6 +42,14 @@ Microsoft.WindowsStore_22402.1401.4.0_neutral_~_8wekyb3d8bbwe.Msixbundle
 ## 参考网站
 - https://github.com/IceLoveYer/LTSC-Add-MicrosoftStore
 
+## 系统展示
+![5164142e82b31a92645af5622760ac2](https://github.com/user-attachments/assets/3992f5ff-1c13-47aa-b5a5-b0a59b6d50d0)
+![22d7c1ee1d074183ad534ce328bc5bf](https://github.com/user-attachments/assets/76976715-2943-4677-9451-ad52cae3d459)
+
+
+
+
+
 
 
 
