@@ -36,8 +36,8 @@ Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe.Appx
 Microsoft.WindowsStore_22402.1401.4.0_neutral_~_8wekyb3d8bbwe.Msixbundle
 
 ## 使用方法
-1.跳转到 Releases 页面，下载对应镜像。
-2.然后和官方镜像安装方式一致即可。
+1.跳转到 Releases 页面，下载对应镜像。  
+2.然后和官方镜像安装方式一致即可。  
 
 ## 参考网站
 - https://github.com/IceLoveYer/LTSC-Add-MicrosoftStore
